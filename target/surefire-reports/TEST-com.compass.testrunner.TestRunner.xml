@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.compass.testrunner.TestRunner" time="139.475" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\MDS\Downloads\SeleniumGridE2E-Selenium-Grid-Automation-with-Multiple-VMs\SeleniumGridE2E-Selenium-Grid-Automation-with-Multiple-VMs\target\test-classes;C:\Users\MDS\Downloads\SeleniumGridE2E-Selenium-Grid-Automation-with-Multiple-VMs\SeleniumGridE2E-Selenium-Grid-Automation-with-Multiple-VMs\target\classes;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\MDS\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\MDS\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\MDS\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\MDS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MDS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\MDS\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.3.0\extentreports-cucumber7-adapter-1.3.0.jar;C:\Users\MDS\.m2\repository\tech\grasshopper\extent-pdf-report\2.1.0\extent-pdf-report-2.1.0.jar;C:\Users\MDS\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.5.0\cucumber-pdf-report-2.5.0.jar;C:\Users\MDS\.m2\repository\org\apache\pdfbox\pdfbox\2.0.25\pdfbox-2.0.25.jar;C:\Users\MDS\.m2\repository\org\apache\pdfbox\fontbox\2.0.25\fontbox-2.0.25.jar;C:\Users\MDS\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\MDS\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\MDS\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\MDS\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\MDS\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\MDS\.m2\repository\tech\grasshopper\table-layout\1.4.0\table-layout-1.4.0.jar;C:\Users\MDS\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.1.0\rest-assured-cucumber-pdf-report-1.1.0.jar;C:\Users\MDS\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\MDS\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\MDS\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\MDS\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\MDS\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\MDS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\MDS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\MDS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\MDS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\MDS\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.0\htmlextentreporter-1.0.0.jar;C:\Users\MDS\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\MDS\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\MDS\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\MDS\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\MDS\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\MDS\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\MDS\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\MDS\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-picocontainer\7.2.3\cucumber-picocontainer-7.2.3.jar;C:\Users\MDS\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.3\selenium-java-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.3\selenium-api-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.3\selenium-chrome-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\MDS\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\MDS\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\MDS\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\MDS\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\MDS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\MDS\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\MDS\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\MDS\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\MDS\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.3\selenium-chromium-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.3\selenium-json-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.3\selenium-devtools-v85-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.3\selenium-devtools-v97-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v98\4.1.3\selenium-devtools-v98-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.3\selenium-devtools-v99-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.3\selenium-edge-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.3\selenium-firefox-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.3\selenium-ie-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.3\selenium-opera-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.3\selenium-remote-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\io\netty\netty-buffer\4.1.75.Final\netty-buffer-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-codec-http\4.1.75.Final\netty-codec-http-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-codec\4.1.75.Final\netty-codec-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-handler\4.1.75.Final\netty-handler-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-common\4.1.75.Final\netty-common-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.75.Final\netty-transport-classes-epoll-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.75.Final\netty-transport-classes-kqueue-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.75.Final\netty-transport-native-epoll-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.75.Final\netty-transport-native-kqueue-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.75.Final\netty-transport-native-unix-common-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport\4.1.75.Final\netty-transport-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-resolver\4.1.75.Final\netty-resolver-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-api\1.12.0\opentelemetry-api-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-context\1.12.0\opentelemetry-context-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.12.0\opentelemetry-exporter-logging-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.12.0-alpha\opentelemetry-sdk-metrics-1.12.0-alpha.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.12.0-alpha\opentelemetry-sdk-logs-1.12.0-alpha.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.12.0\opentelemetry-sdk-common-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.12.0\opentelemetry-sdk-extension-autoconfigure-spi-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.12.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.12.0-alpha.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.12.0\opentelemetry-sdk-trace-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.12.0\opentelemetry-sdk-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.12.0-alpha\opentelemetry-semconv-1.12.0-alpha.jar;C:\Users\MDS\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\MDS\.m2\repository\net\bytebuddy\byte-buddy\1.12.8\byte-buddy-1.12.8.jar;C:\Users\MDS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\MDS\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\MDS\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\MDS\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\MDS\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\MDS\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.3\selenium-http-4.1.3.jar;C:\Users\MDS\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.3\selenium-safari-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.3\selenium-support-4.1.3.jar;C:\Users\MDS\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.17.2\allure-cucumber7-jvm-2.17.2.jar;C:\Users\MDS\.m2\repository\io\qameta\allure\allure-java-commons\2.17.2\allure-java-commons-2.17.2.jar;C:\Users\MDS\.m2\repository\io\qameta\allure\allure-model\2.17.2\allure-model-2.17.2.jar;C:\Users\MDS\.m2\repository\io\cucumber\gherkin\22.0.0\gherkin-22.0.0.jar;C:\Users\MDS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\MDS\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\MDS\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\MDS\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\MDS\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\MDS\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.0\maven-compiler-plugin-3.10.0.jar;C:\Users\MDS\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\MDS\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\MDS\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\MDS\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\MDS\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\MDS\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\MDS\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.10.0\plexus-compiler-api-2.10.0.jar;C:\Users\MDS\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\MDS\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.10.0\plexus-compiler-manager-2.10.0.jar;C:\Users\MDS\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.10.0\plexus-compiler-javac-2.10.0.jar;C:\Users\MDS\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\MDS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MDS\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\MDS\.m2\repository\ch\qos\reload4j\reload4j\1.2.22\reload4j-1.2.22.jar;C:\Users\MDS\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\MDS\.m2\repository\io\qameta\allure\allure-testng\2.17.3\allure-testng-2.17.3.jar;C:\Users\MDS\.m2\repository\io\qameta\allure\allure-test-filter\2.17.3\allure-test-filter-2.17.3.jar;C:\Users\MDS\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\MDS\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\MDS\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\MDS\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\MDS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\MDS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\MDS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\MDS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\MDS\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\MDS\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\MDS\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\MDS\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\MDS\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\MDS\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\MDS\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\MDS\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\MDS\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\MDS\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Dhaka"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="allure.link.issue.pattern" value="https://example.org/browse/{}"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\MDS\AppData\Local\Temp\surefire651422176752351840\surefirebooter9246727292727531178.jar C:\Users\MDS\AppData\Local\Temp\surefire651422176752351840 2024-10-11T12-54-07_282-jvmRun1 surefire7922045640695946501tmp surefire_01620929108379098672tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\MDS\Downloads\SeleniumGridE2E-Selenium-Grid-Automation-with-Multiple-VMs\SeleniumGridE2E-Selenium-Grid-Automation-with-Multiple-VMs\target\test-classes;C:\Users\MDS\Downloads\SeleniumGridE2E-Selenium-Grid-Automation-with-Multiple-VMs\SeleniumGridE2E-Selenium-Grid-Automation-with-Multiple-VMs\target\classes;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\MDS\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\MDS\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\MDS\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\MDS\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\MDS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MDS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\MDS\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.3.0\extentreports-cucumber7-adapter-1.3.0.jar;C:\Users\MDS\.m2\repository\tech\grasshopper\extent-pdf-report\2.1.0\extent-pdf-report-2.1.0.jar;C:\Users\MDS\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.5.0\cucumber-pdf-report-2.5.0.jar;C:\Users\MDS\.m2\repository\org\apache\pdfbox\pdfbox\2.0.25\pdfbox-2.0.25.jar;C:\Users\MDS\.m2\repository\org\apache\pdfbox\fontbox\2.0.25\fontbox-2.0.25.jar;C:\Users\MDS\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\MDS\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\MDS\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\MDS\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\MDS\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\MDS\.m2\repository\tech\grasshopper\table-layout\1.4.0\table-layout-1.4.0.jar;C:\Users\MDS\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.1.0\rest-assured-cucumber-pdf-report-1.1.0.jar;C:\Users\MDS\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\MDS\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\MDS\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\MDS\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\MDS\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\MDS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\MDS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\MDS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\MDS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\MDS\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.0\htmlextentreporter-1.0.0.jar;C:\Users\MDS\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\MDS\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\MDS\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\MDS\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\MDS\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\MDS\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\MDS\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\MDS\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-picocontainer\7.2.3\cucumber-picocontainer-7.2.3.jar;C:\Users\MDS\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\MDS\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.3\selenium-java-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.3\selenium-api-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.3\selenium-chrome-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\MDS\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\MDS\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\MDS\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\MDS\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\MDS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\MDS\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\MDS\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\MDS\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\MDS\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.3\selenium-chromium-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.3\selenium-json-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.3\selenium-devtools-v85-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.3\selenium-devtools-v97-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v98\4.1.3\selenium-devtools-v98-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.3\selenium-devtools-v99-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.3\selenium-edge-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.3\selenium-firefox-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.3\selenium-ie-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.3\selenium-opera-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.3\selenium-remote-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\io\netty\netty-buffer\4.1.75.Final\netty-buffer-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-codec-http\4.1.75.Final\netty-codec-http-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-codec\4.1.75.Final\netty-codec-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-handler\4.1.75.Final\netty-handler-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-common\4.1.75.Final\netty-common-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.75.Final\netty-transport-classes-epoll-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.75.Final\netty-transport-classes-kqueue-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.75.Final\netty-transport-native-epoll-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.75.Final\netty-transport-native-kqueue-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.75.Final\netty-transport-native-unix-common-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport\4.1.75.Final\netty-transport-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-resolver\4.1.75.Final\netty-resolver-4.1.75.Final.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-api\1.12.0\opentelemetry-api-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-context\1.12.0\opentelemetry-context-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.12.0\opentelemetry-exporter-logging-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.12.0-alpha\opentelemetry-sdk-metrics-1.12.0-alpha.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.12.0-alpha\opentelemetry-sdk-logs-1.12.0-alpha.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.12.0\opentelemetry-sdk-common-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.12.0\opentelemetry-sdk-extension-autoconfigure-spi-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.12.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.12.0-alpha.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.12.0\opentelemetry-sdk-trace-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.12.0\opentelemetry-sdk-1.12.0.jar;C:\Users\MDS\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.12.0-alpha\opentelemetry-semconv-1.12.0-alpha.jar;C:\Users\MDS\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\MDS\.m2\repository\net\bytebuddy\byte-buddy\1.12.8\byte-buddy-1.12.8.jar;C:\Users\MDS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\MDS\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\MDS\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\MDS\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\MDS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\MDS\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\MDS\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.3\selenium-http-4.1.3.jar;C:\Users\MDS\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.3\selenium-safari-driver-4.1.3.jar;C:\Users\MDS\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.3\selenium-support-4.1.3.jar;C:\Users\MDS\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.17.2\allure-cucumber7-jvm-2.17.2.jar;C:\Users\MDS\.m2\repository\io\qameta\allure\allure-java-commons\2.17.2\allure-java-commons-2.17.2.jar;C:\Users\MDS\.m2\repository\io\qameta\allure\allure-model\2.17.2\allure-model-2.17.2.jar;C:\Users\MDS\.m2\repository\io\cucumber\gherkin\22.0.0\gherkin-22.0.0.jar;C:\Users\MDS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\MDS\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\MDS\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\MDS\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\MDS\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\MDS\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.0\maven-compiler-plugin-3.10.0.jar;C:\Users\MDS\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\MDS\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\MDS\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\MDS\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\MDS\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\MDS\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\MDS\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.10.0\plexus-compiler-api-2.10.0.jar;C:\Users\MDS\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\MDS\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.10.0\plexus-compiler-manager-2.10.0.jar;C:\Users\MDS\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.10.0\plexus-compiler-javac-2.10.0.jar;C:\Users\MDS\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\MDS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MDS\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\MDS\.m2\repository\ch\qos\reload4j\reload4j\1.2.22\reload4j-1.2.22.jar;C:\Users\MDS\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\MDS\.m2\repository\io\qameta\allure\allure-testng\2.17.3\allure-testng-2.17.3.jar;C:\Users\MDS\.m2\repository\io\qameta\allure\allure-test-filter\2.17.3\allure-test-filter-2.17.3.jar;C:\Users\MDS\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\MDS\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\MDS\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\MDS\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\MDS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\MDS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\MDS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\MDS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\MDS\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\MDS\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\MDS\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\MDS\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\MDS\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\MDS\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\MDS\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\MDS\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\MDS\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\MDS\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="allure-results"/>
+    <property name="user.home" value="C:\Users\MDS"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="allure.link.tms.pattern" value="https://example.org/browse/{}"/>
+    <property name="basedir" value="C:\Users\MDS\Downloads\SeleniumGridE2E-Selenium-Grid-Automation-with-Multiple-VMs\SeleniumGridE2E-Selenium-Grid-Automation-with-Multiple-VMs"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\MDS\AppData\Local\Temp\surefire651422176752351840\surefirebooter9246727292727531178.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
+    <property name="user.name" value="MDS"/>
+    <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\MDS\.m2\repository"/>
+    <property name="cucumber.options" value="--plugin io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MDS\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="user.dir" value="C:\Users\MDS\Downloads\SeleniumGridE2E-Selenium-Grid-Automation-with-Multiple-VMs\SeleniumGridE2E-Selenium-Grid-Automation-with-Multiple-VMs"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;&quot;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_202\bin&quot;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\apache-jmeter-5.4.3\bin;C:\apache-maven-3.8.6\bin;C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files (x86)\Java\jre-1.8;C:\Program Files (x86)\Java;C:\Program Files\Java\jdk-21\bin\java.exe;C:\Program Files\Java\jdk-21;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\platforms;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Common Files\Oracle\Java\javapath\java.exe;C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\nodejs\;C:\Program Files\allure-2.26.0\allure-2.26.0\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Java\jdk-17\bin;C:\apache-flex-sdk-4.16.1-bin\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\MDS\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\MDS\AppData\Local\Programs\Python\Python312\;C:\Users\MDS\AppData\Local\Microsoft\WindowsApps;C:\Users\MDS\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.11+7-LTS-207"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify Vehicles Category views2&quot;, &quot;Optional[All are Sajim Tag Scenario]&quot;](1)" classname="com.compass.testrunner.TestRunner" time="39.42">
+    <system-out><![CDATA[
+@SAJIM @Release
+Scenario: Verify Vehicles Category views3   # src/test/resources/features/UI/Dashboard/Dashboard_01_WikiOpen.feature:58
+
+@SAJIM @Release
+Scenario: Verify  Login Page fields2            # src/test/resources/features/UI/Dashboard/Dashboard_01_WikiOpen.feature:4
+
+@SAJIM @Release
+Scenario: Verify  Login Page fields3            # src/test/resources/features/UI/Dashboard/Dashboard_01_WikiOpen.feature:38
+
+@SAJIM @Release
+Scenario: Verify Property Category views3   # src/test/resources/features/UI/Dashboard/Dashboard_01_WikiOpen.feature:63
+
+@SAJIM @Release
+Scenario: Verify Mobile Category views3   # src/test/resources/features/UI/Dashboard/Dashboard_01_WikiOpen.feature:48
+
+@SAJIM @Release
+Scenario: Verify Electronics Category views3   # src/test/resources/features/UI/Dashboard/Dashboard_01_WikiOpen.feature:53
+
+@SAJIM @Release
+Scenario: Verify Vehicles Category views2   # src/test/resources/features/UI/Dashboard/Dashboard_01_WikiOpen.feature:24
+
+@SAJIM @Release
+Scenario: Verify Electronics Category views2   # src/test/resources/features/UI/Dashboard/Dashboard_01_WikiOpen.feature:19
+
+@SAJIM @Release
+Scenario: Verify Property Category views2   # src/test/resources/features/UI/Dashboard/Dashboard_01_WikiOpen.feature:29
+
+@SAJIM @Release
+Scenario: Verify Mobile Category views2   # src/test/resources/features/UI/Dashboard/Dashboard_01_WikiOpen.feature:14
+Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options @SAJIM Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options @SAJIM Its From RemoteDriver Options @SAJIM Its From RemoteDriver Options @SAJIM Initializing WebDriver with IP: http://localhost:4444/wd/hub
+Initializing WebDriver with IP: http://localhost:4444/wd/hub
+Initializing WebDriver with IP: http://localhost:4444/wd/hub
+Initializing WebDriver with IP: http://localhost:4444/wd/hub
+Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options @SAJIM Its From RemoteDriver Options @SAJIM Its From RemoteDriver Options @SAJIM Initializing WebDriver with IP: http://localhost:4444/wd/hub
+Initializing WebDriver with IP: http://localhost:4444/wd/hub
+Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is chrome Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options @SAJIM  Browser name is chrome  Browser name is chrome Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is firefox Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options @SAJIM Its From RemoteDriver Options http://localhost:4444/wd/hub  Browser name is chrome Initializing WebDriver with IP: http://localhost:4444/wd/hub
+Its From RemoteDriver Options @SAJIM Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is firefox  Browser name is firefox  Browser name is chrome  Browser name is chrome  Browser name is chrome Its From Chrome Options http://localhost:4444/wd/hub Its From Chrome Options http://localhost:4444/wd/hub Its From Chrome Options http://localhost:4444/wd/hub Its From Chrome Options http://localhost:4444/wd/hub Its From Chrome Options http://localhost:4444/wd/hub Its From Chrome Options http://localhost:4444/wd/hub Its From Chrome Options http://localhost:4444/wd/hub https://bikroy.com/en
+https://bikroy.com/en
+https://bikroy.com/en
+2024-10-11 12:54:29 [TestNG-PoolService-3] INFO  com.compass.stepdefinitions.LoginSteps - Vehicles Category displayed
+  Given I should see the Vehicles category2 # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheVehiclesCategory2()
+https://bikroy.com/en
+https://bikroy.com/en
+https://bikroy.com/en
+2024-10-11 12:54:32 [TestNG-PoolService-4] INFO  com.compass.stepdefinitions.LoginSteps - Property Category displayed
+  Given I should see the Property category2 # com.compass.stepdefinitions.LoginSteps.iShouldSeeThePropertyCategory2()
+https://bikroy.com/en
+https://bikroy.com/en
+2024-10-11 12:54:33 [TestNG-PoolService-1] INFO  com.compass.stepdefinitions.LoginSteps - Mobile Category displayed
+  Given I should see the Mobile category2 # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheMobileCategory2()
+2024-10-11 12:54:34 [TestNG-PoolService-5] INFO  com.compass.stepdefinitions.LoginSteps - Company Logo displayed
+  Given I should see the login logo3            # com.compass.stepdefinitions.LoginSteps.i_should_see_the_compass_logo3()
+2024-10-11 12:54:35 [TestNG-PoolService-2] INFO  com.compass.stepdefinitions.LoginSteps - Electronics Category displayed
+  Given I should see the Electronics category2 # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheElectronicsCategory2()
+2024-10-11 12:54:35 [TestNG-PoolService-9] INFO  com.compass.stepdefinitions.LoginSteps - Property Category displayed
+  Given I should see the Property category3 # com.compass.stepdefinitions.LoginSteps.iShouldSeeThePropertyCategory3()
+2024-10-11 12:54:35 [TestNG-PoolService-0] INFO  com.compass.stepdefinitions.LoginSteps - Company Logo displayed
+  Given I should see the login logo2            # com.compass.stepdefinitions.LoginSteps.i_should_see_the_compass_logo2()
+2024-10-11 12:54:36 [TestNG-PoolService-7] INFO  com.compass.stepdefinitions.LoginSteps - Electronics Category displayed
+  Given I should see the Electronics category3 # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheElectronicsCategory3()
+  Then I should Click on Vehicles Category2 # com.compass.stepdefinitions.LoginSteps.iShouldClickOnVehiclesCategory2()
+  Then I should click on login logo3            # com.compass.stepdefinitions.LoginSteps.iShouldClickOnLoginLogo3()
+  Then I should click on login logo2            # com.compass.stepdefinitions.LoginSteps.iShouldClickOnLoginLogo2()
+2024-10-11 12:54:41 [TestNG-PoolService-5] INFO  com.compass.stepdefinitions.LoginSteps - email login displayed
+  And I should see the email login options3     # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheEmailLoginOptions3()
+2024-10-11 12:54:45 [TestNG-PoolService-0] INFO  com.compass.stepdefinitions.LoginSteps - email login displayed
+  And I should see the email login options2     # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheEmailLoginOptions2()
+  Then I should click on Email login options3   # com.compass.stepdefinitions.LoginSteps.iShouldClickOnEmailLoginOptions3()
+2024-10-11 12:54:46 [TestNG-PoolService-3] INFO  com.compass.stepdefinitions.LoginSteps - Vehicles product displayed
+  And I should See Vehicles product2        # com.compass.stepdefinitions.LoginSteps.iShouldSeeVehiclesProduct2()
+2024-10-11 12:54:48 [TestNG-PoolService-5] INFO  com.compass.stepdefinitions.LoginSteps - username field displayed
+  And I should see Username field on this page3 # com.compass.stepdefinitions.LoginSteps.iShouldSeeUsernameFieldOnThisPage3()
+  Then I should click on Email login options2   # com.compass.stepdefinitions.LoginSteps.iShouldClickOnEmailLoginOptions2()
+]]></system-out>
+    <system-err><![CDATA[Oct 11, 2024 12:54:11 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+Oct 11, 2024 12:54:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 11, 2024 12:54:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 11, 2024 12:54:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 11, 2024 12:54:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 11, 2024 12:54:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 11, 2024 12:54:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 11, 2024 12:54:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 11, 2024 12:54:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Property Category views2&quot;, &quot;Optional[All are Sajim Tag Scenario]&quot;](2)" classname="com.compass.testrunner.TestRunner" time="9.133">
+    <system-out><![CDATA[
+@RAZIB @Release
+Scenario: Verify  Login Page fields            # src/test/resources/features/UI/Login/Login.feature:4
+Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options  @RAZIB Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is chrome Its From Chrome Options http://localhost:4444/wd/hub   When I should Input my Username3              # com.compass.stepdefinitions.LoginSteps.iShouldInputMyUsername3()
+2024-10-11 12:54:51 [TestNG-PoolService-0] INFO  com.compass.stepdefinitions.LoginSteps - username field displayed
+  And I should see Username field on this page2 # com.compass.stepdefinitions.LoginSteps.iShouldSeeUsernameFieldOnThisPage2()
+  When I should Input my Username2              # com.compass.stepdefinitions.LoginSteps.iShouldInputMyUsername2()
+  And I should Input my My Password3            # com.compass.stepdefinitions.LoginSteps.iShouldInputMyMyPassword3()
+  Then I should Click on Property Category2 # com.compass.stepdefinitions.LoginSteps.iShouldClickOnPropertyCategory2()
+  And I should Input my My Password2            # com.compass.stepdefinitions.LoginSteps.iShouldInputMyMyPassword2()
+  Then I should Click on Mobile Category2 # com.compass.stepdefinitions.LoginSteps.iShouldClickOnMobileCategory2()
+  Then I should Click on Property Category3 # com.compass.stepdefinitions.LoginSteps.iShouldClickOnPropertyCategory3()
+2024-10-11 12:54:58 [TestNG-PoolService-4] INFO  com.compass.stepdefinitions.LoginSteps - Property product displayed
+  And I should See Property product2        # com.compass.stepdefinitions.LoginSteps.iShouldSeePropertyProduct2()
+  Then I should Click on Login Button3          # com.compass.stepdefinitions.LoginSteps.iShouldClickOnLoginButton3()
+]]></system-out>
+    <system-err><![CDATA[Oct 11, 2024 12:54:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify  Login Page fields3&quot;, &quot;Optional[All are Sajim Tag Scenario]&quot;](3)" classname="com.compass.testrunner.TestRunner" time="1.514">
+    <system-out><![CDATA[
+@RAZIB @Release
+Scenario: Verify Mobile Category views   # src/test/resources/features/UI/Login/Login.feature:14
+Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options  @RAZIB Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is chrome Its From Chrome Options http://localhost:4444/wd/hub ]]></system-out>
+    <system-err><![CDATA[Oct 11, 2024 12:55:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Mobile Category views2&quot;, &quot;Optional[All are Sajim Tag Scenario]&quot;](4)" classname="com.compass.testrunner.TestRunner" time="0.769">
+    <system-out><![CDATA[
+@RAZIB @Release
+Scenario: Verify Electronics Category views   # src/test/resources/features/UI/Login/Login.feature:19
+Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options  @RAZIB Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is chrome Its From Chrome Options http://localhost:4444/wd/hub 2024-10-11 12:55:01 [TestNG-PoolService-1] INFO  com.compass.stepdefinitions.LoginSteps - Mobile product displayed
+  And I should See Mobile product2        # com.compass.stepdefinitions.LoginSteps.iShouldSeeMobileProduct2()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify  Login Page fields2&quot;, &quot;Optional[All are Sajim Tag Scenario]&quot;](5)" classname="com.compass.testrunner.TestRunner" time="3.919">
+    <system-out><![CDATA[
+@RAZIB @Release
+Scenario: Verify Vehicles Category views   # src/test/resources/features/UI/Login/Login.feature:24
+Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options  @RAZIB Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is chrome Its From Chrome Options http://localhost:4444/wd/hub 2024-10-11 12:55:01 [TestNG-PoolService-9] INFO  com.compass.stepdefinitions.LoginSteps - Property product displayed
+  And I should See Property product3        # com.compass.stepdefinitions.LoginSteps.iShouldSeePropertyProduct3()
+  Then I should Click on Login Button2          # com.compass.stepdefinitions.LoginSteps.iShouldClickOnLoginButton2()
+]]></system-out>
+    <system-err><![CDATA[Oct 11, 2024 12:55:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Property Category views3&quot;, &quot;Optional[All are Sajim Tag Scenario]&quot;](6)" classname="com.compass.testrunner.TestRunner" time="0.592">
+    <system-out><![CDATA[
+@RAZIB @Release
+Scenario: Verify Property Category views   # src/test/resources/features/UI/Login/Login.feature:29
+Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options  @RAZIB Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is chrome Its From Chrome Options http://localhost:4444/wd/hub ]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Electronics Category views2&quot;, &quot;Optional[All are Sajim Tag Scenario]&quot;](7)" classname="com.compass.testrunner.TestRunner" time="10.986">
+    <system-out><![CDATA[
+@RAZIB @Release
+Scenario: Verify  Login Page fields4            # src/test/resources/features/UI/Login/Login.feature:40
+Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options  @RAZIB Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is chrome Its From Chrome Options http://localhost:4444/wd/hub https://bikroy.com/en
+2024-10-11 12:55:08 [TestNG-PoolService-8] INFO  com.compass.stepdefinitions.LoginSteps - Vehicles Category displayed
+  Given I should see the Vehicles category3 # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheVehiclesCategory3()
+  Then I should Click on Electronics Category2 # com.compass.stepdefinitions.LoginSteps.iShouldClickOnElectronicsCategory2()
+https://bikroy.com/en
+https://bikroy.com/en
+https://bikroy.com/en
+2024-10-11 12:55:13 [TestNG-PoolService-2] INFO  com.compass.stepdefinitions.LoginSteps - Electronics product displayed
+  And I should See Electronics product2        # com.compass.stepdefinitions.LoginSteps.iShouldSeeElectronicsProduct2()
+2024-10-11 12:55:13 [TestNG-PoolService-3] INFO  com.compass.stepdefinitions.LoginSteps - Company Logo displayed
+  Given I should see the login logo            # com.compass.stepdefinitions.LoginSteps.i_should_see_the_compass_logo()
+2024-10-11 12:55:16 [TestNG-PoolService-4] INFO  com.compass.stepdefinitions.LoginSteps - Mobile Category displayed
+  Given I should see the Mobile category # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheMobileCategory()
+]]></system-out>
+    <system-err><![CDATA[Oct 11, 2024 12:55:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 11, 2024 12:55:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 11, 2024 12:55:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Electronics Category views3&quot;, &quot;Optional[All are Sajim Tag Scenario]&quot;](8)" classname="com.compass.testrunner.TestRunner" time="12.125">
+    <system-out><![CDATA[
+@RAZIB @Release
+Scenario: Verify Mobile Category views4   # src/test/resources/features/UI/Login/Login.feature:50
+Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options  @RAZIB Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is chrome Its From Chrome Options http://localhost:4444/wd/hub   Then I should Click on Electronics Category3 # com.compass.stepdefinitions.LoginSteps.iShouldClickOnElectronicsCategory3()
+  Then I should click on login logo            # com.compass.stepdefinitions.LoginSteps.iShouldClickOnLoginLogo()
+2024-10-11 12:55:20 [TestNG-PoolService-7] INFO  com.compass.stepdefinitions.LoginSteps - Electronics product displayed
+  And I should See Electronics product3        # com.compass.stepdefinitions.LoginSteps.iShouldSeeElectronicsProduct3()
+https://bikroy.com/en
+https://bikroy.com/en
+2024-10-11 12:55:22 [TestNG-PoolService-0] INFO  com.compass.stepdefinitions.LoginSteps - Property Category displayed
+  Given I should see the Property category # com.compass.stepdefinitions.LoginSteps.iShouldSeeThePropertyCategory()
+2024-10-11 12:55:24 [TestNG-PoolService-3] INFO  com.compass.stepdefinitions.LoginSteps - email login displayed
+  And I should see the email login options     # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheEmailLoginOptions()
+  Then I should click on Email login options   # com.compass.stepdefinitions.LoginSteps.iShouldClickOnEmailLoginOptions()
+  Then I should Click on Property Category # com.compass.stepdefinitions.LoginSteps.iShouldClickOnPropertyCategory()
+]]></system-out>
+    <system-err><![CDATA[Oct 11, 2024 12:55:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Vehicles Category views3&quot;, &quot;Optional[All are Sajim Tag Scenario]&quot;](9)" classname="com.compass.testrunner.TestRunner" time="5.853">
+    <system-out><![CDATA[
+@RAZIB @Release
+Scenario: Verify Electronics Category views4   # src/test/resources/features/UI/Login/Login.feature:55
+Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options  @RAZIB Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is chrome Its From Chrome Options http://localhost:4444/wd/hub https://bikroy.com/en
+2024-10-11 12:55:31 [TestNG-PoolService-3] INFO  com.compass.stepdefinitions.LoginSteps - username field displayed
+  And I should see Username field on this page # com.compass.stepdefinitions.LoginSteps.iShouldSeeUsernameFieldOnThisPage()
+  Then I should Click on Vehicles Category3 # com.compass.stepdefinitions.LoginSteps.iShouldClickOnVehiclesCategory3()
+  When I should Input my Username              # com.compass.stepdefinitions.LoginSteps.iShouldInputMyUsername()
+https://bikroy.com/en
+2024-10-11 12:55:33 [TestNG-PoolService-6] INFO  com.compass.stepdefinitions.LoginSteps - Mobile Category displayed
+  Given I should see the Mobile category3 # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheMobileCategory3()
+2024-10-11 12:55:34 [TestNG-PoolService-8] INFO  com.compass.stepdefinitions.LoginSteps - Vehicles product displayed
+  And I should See Vehicles product3        # com.compass.stepdefinitions.LoginSteps.iShouldSeeVehiclesProduct3()
+]]></system-out>
+    <system-err><![CDATA[Oct 11, 2024 12:55:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Mobile Category views&quot;, &quot;Optional[Verify User Login page fields.]&quot;](10)" classname="com.compass.testrunner.TestRunner" time="7.849">
+    <system-out><![CDATA[
+@RAZIB @Release
+Scenario: Verify Vehicles Category views4   # src/test/resources/features/UI/Login/Login.feature:60
+Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options  @RAZIB Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is chrome Its From Chrome Options http://localhost:4444/wd/hub   And I should Input my My Password            # com.compass.stepdefinitions.LoginSteps.iShouldInputMyMyPassword()
+2024-10-11 12:55:38 [TestNG-PoolService-9] INFO  com.compass.stepdefinitions.LoginSteps - Company Logo displayed
+  Given I should see the login logo4            # com.compass.stepdefinitions.LoginSteps.i_should_see_the_compass_logo4()
+  Then I should Click on Mobile Category # com.compass.stepdefinitions.LoginSteps.iShouldClickOnMobileCategory()
+2024-10-11 12:55:39 [TestNG-PoolService-1] INFO  com.compass.stepdefinitions.LoginSteps - Vehicles Category displayed
+  Given I should see the Vehicles category # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheVehiclesCategory()
+  Then I should click on login logo4            # com.compass.stepdefinitions.LoginSteps.iShouldClickOnLoginLogo4()
+2024-10-11 12:55:42 [TestNG-PoolService-4] INFO  com.compass.stepdefinitions.LoginSteps - Mobile product displayed
+  And I should See Mobile product        # com.compass.stepdefinitions.LoginSteps.iShouldSeeMobileProduct()
+  Then I should Click on Login Button          # com.compass.stepdefinitions.LoginSteps.iShouldClickOnLoginButton()
+]]></system-out>
+    <system-err><![CDATA[Oct 11, 2024 12:55:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify  Login Page fields&quot;, &quot;Optional[Verify User Login page fields.]&quot;](11)" classname="com.compass.testrunner.TestRunner" time="0.16">
+    <system-out><![CDATA[
+@RAZIB @Release
+Scenario: Verify Property Category views4   # src/test/resources/features/UI/Login/Login.feature:65
+Its From RemoteDriver Options http://localhost:4444/wd/hub Its From RemoteDriver Options  @RAZIB Initializing WebDriver with IP: http://localhost:4444/wd/hub
+ Browser name is chrome Its From Chrome Options http://localhost:4444/wd/hub ]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Property Category views&quot;, &quot;Optional[Verify User Login page fields.]&quot;](12)" classname="com.compass.testrunner.TestRunner" time="15.583">
+    <system-out><![CDATA[2024-10-11 12:55:45 [TestNG-PoolService-9] INFO  com.compass.stepdefinitions.LoginSteps - email login displayed
+  And I should see the email login options4     # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheEmailLoginOptions4()
+  Then I should click on Email login options4   # com.compass.stepdefinitions.LoginSteps.iShouldClickOnEmailLoginOptions4()
+  Then I should Click on Mobile Category3 # com.compass.stepdefinitions.LoginSteps.iShouldClickOnMobileCategory3()
+https://bikroy.com/en
+2024-10-11 12:55:51 [TestNG-PoolService-9] INFO  com.compass.stepdefinitions.LoginSteps - username field displayed
+  And I should see Username field on this page4 # com.compass.stepdefinitions.LoginSteps.iShouldSeeUsernameFieldOnThisPage4()
+https://bikroy.com/en
+2024-10-11 12:55:53 [TestNG-PoolService-6] INFO  com.compass.stepdefinitions.LoginSteps - Mobile product displayed
+  And I should See Mobile product3        # com.compass.stepdefinitions.LoginSteps.iShouldSeeMobileProduct3()
+2024-10-11 12:55:53 [TestNG-PoolService-0] INFO  com.compass.stepdefinitions.LoginSteps - Property product displayed
+  And I should See Property product        # com.compass.stepdefinitions.LoginSteps.iShouldSeePropertyProduct()
+2024-10-11 12:55:54 [TestNG-PoolService-5] INFO  com.compass.stepdefinitions.LoginSteps - Electronics Category displayed
+  Given I should see the Electronics category # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheElectronicsCategory()
+  When I should Input my Username4              # com.compass.stepdefinitions.LoginSteps.iShouldInputMyUsername4()
+2024-10-11 12:55:55 [TestNG-PoolService-2] INFO  com.compass.stepdefinitions.LoginSteps - Mobile Category displayed
+  Given I should see the Mobile category4 # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheMobileCategory4()
+]]></system-out>
+    <system-err><![CDATA[Oct 11, 2024 12:55:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 11, 2024 12:55:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Mobile Category views3&quot;, &quot;Optional[All are Sajim Tag Scenario]&quot;](13)" classname="com.compass.testrunner.TestRunner" time="15.655"/>
+  <testcase name="runScenario[&quot;Verify Vehicles Category views&quot;, &quot;Optional[Verify User Login page fields.]&quot;](14)" classname="com.compass.testrunner.TestRunner" time="21.238">
+    <system-out><![CDATA[  And I should Input my My Password4            # com.compass.stepdefinitions.LoginSteps.iShouldInputMyMyPassword4()
+  Then I should Click on Vehicles Category # com.compass.stepdefinitions.LoginSteps.iShouldClickOnVehiclesCategory()
+https://bikroy.com/en
+2024-10-11 12:56:03 [TestNG-PoolService-1] INFO  com.compass.stepdefinitions.LoginSteps - Vehicles product displayed
+  And I should See Vehicles product        # com.compass.stepdefinitions.LoginSteps.iShouldSeeVehiclesProduct()
+]]></system-out>
+    <system-err><![CDATA[Oct 11, 2024 12:56:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Electronics Category views&quot;, &quot;Optional[Verify User Login page fields.]&quot;](15)" classname="com.compass.testrunner.TestRunner" time="32.529">
+    <system-out><![CDATA[https://bikroy.com/en
+  Then I should Click on Login Button4          # com.compass.stepdefinitions.LoginSteps.iShouldClickOnLoginButton4()
+2024-10-11 12:56:07 [TestNG-PoolService-4] INFO  com.compass.stepdefinitions.LoginSteps - Property Category displayed
+  Given I should see the Property category4 # com.compass.stepdefinitions.LoginSteps.iShouldSeeThePropertyCategory4()
+  Then I should Click on Electronics Category # com.compass.stepdefinitions.LoginSteps.iShouldClickOnElectronicsCategory()
+2024-10-11 12:56:08 [TestNG-PoolService-7] INFO  com.compass.stepdefinitions.LoginSteps - Electronics Category displayed
+  Given I should see the Electronics category4 # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheElectronicsCategory4()
+2024-10-11 12:56:11 [TestNG-PoolService-8] INFO  com.compass.stepdefinitions.LoginSteps - Vehicles Category displayed
+  Given I should see the Vehicles category4 # com.compass.stepdefinitions.LoginSteps.iShouldSeeTheVehiclesCategory4()
+2024-10-11 12:56:13 [TestNG-PoolService-5] INFO  com.compass.stepdefinitions.LoginSteps - Electronics product displayed
+  And I should See Electronics product        # com.compass.stepdefinitions.LoginSteps.iShouldSeeElectronicsProduct()
+  Then I should Click on Electronics Category4 # com.compass.stepdefinitions.LoginSteps.iShouldClickOnElectronicsCategory4()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify  Login Page fields4&quot;, &quot;Optional[Verify User Login page fields.]&quot;](16)" classname="com.compass.testrunner.TestRunner" time="34.138"/>
+  <testcase name="runScenario[&quot;Verify Mobile Category views4&quot;, &quot;Optional[Verify User Login page fields.]&quot;](17)" classname="com.compass.testrunner.TestRunner" time="37.995">
+    <system-out><![CDATA[  Then I should Click on Mobile Category4 # com.compass.stepdefinitions.LoginSteps.iShouldClickOnMobileCategory4()
+2024-10-11 12:56:20 [TestNG-PoolService-2] INFO  com.compass.stepdefinitions.LoginSteps - Mobile product displayed
+  And I should See Mobile product4        # com.compass.stepdefinitions.LoginSteps.iShouldSeeMobileProduct4()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Electronics Category views4&quot;, &quot;Optional[Verify User Login page fields.]&quot;](18)" classname="com.compass.testrunner.TestRunner" time="38.5">
+    <system-out><![CDATA[2024-10-11 12:56:21 [TestNG-PoolService-7] INFO  com.compass.stepdefinitions.LoginSteps - Electronics product displayed
+  And I should See Electronics product4        # com.compass.stepdefinitions.LoginSteps.iShouldSeeElectronicsProduct4()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Property Category views4&quot;, &quot;Optional[Verify User Login page fields.]&quot;](19)" classname="com.compass.testrunner.TestRunner" time="44.199">
+    <system-out><![CDATA[  Then I should Click on Property Category4 # com.compass.stepdefinitions.LoginSteps.iShouldClickOnPropertyCategory4()
+  Then I should Click on Vehicles Category4 # com.compass.stepdefinitions.LoginSteps.iShouldClickOnVehiclesCategory4()
+2024-10-11 12:56:26 [TestNG-PoolService-4] INFO  com.compass.stepdefinitions.LoginSteps - Property product displayed
+  And I should See Property product4        # com.compass.stepdefinitions.LoginSteps.iShouldSeePropertyProduct4()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Vehicles Category views4&quot;, &quot;Optional[Verify User Login page fields.]&quot;](20)" classname="com.compass.testrunner.TestRunner" time="45.115">
+    <system-out><![CDATA[2024-10-11 12:56:27 [TestNG-PoolService-8] INFO  com.compass.stepdefinitions.LoginSteps - Vehicles product displayed
+  And I should See Vehicles product4        # com.compass.stepdefinitions.LoginSteps.iShouldSeeVehiclesProduct4()
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,6 @@
+com\compass\testbase\TestBase.class
+com\compass\utils\LogUtil.class
+com\compass\pages\DashBoardPage.class
+com\compass\testbase\TestContextSetup.class
+com\compass\utils\LocatorReader.class
+com\compass\pages\LoginPage.class

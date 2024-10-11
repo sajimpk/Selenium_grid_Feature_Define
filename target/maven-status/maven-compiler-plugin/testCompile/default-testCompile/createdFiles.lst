@@ -1,0 +1,3 @@
+com\compass\stepdefinitions\Hooks.class
+com\compass\stepdefinitions\LoginSteps.class
+com\compass\testrunner\TestRunner.class
